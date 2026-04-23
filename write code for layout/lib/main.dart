@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'a1_task1.dart';
+import 'home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,10 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
-      // 👉 Change here to test Task1 or Task2
-      home: Task1(),
-      // home: Task2(),
+      home: HomePage(),
     );
   }
 }
